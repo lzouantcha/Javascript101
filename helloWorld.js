@@ -72,3 +72,54 @@ const car = undefined; //car varibale is inavlid
 const car2 = null; //car2 is invalid
 
 
+//-----Operators------
+
+//--Arithmatic--
+console.log(2+2);
+const x = 1;
+const y = 2;
+const z = x + y;
+console.log(z);
+
+//-,*,/,+
+console.log(5-3);
+console.log(5*5); //multiplication
+console.log(5/1); //division
+
+
+//---Comparison---(return true or false (boolean))
+
+console.log(5>1); //print out true
+//>,<,<=, >=, ==, ===
+//>= (greater than OR equal to)
+console.log(3>=3) //true
+//<= (less than OR equal to)
+console.log(4<=10) //true
+
+//== vs. ===
+console.log(5==5); //use double (same value)
+//== (not strict) (can compare differentr data types)
+console.log('5'=='5') //TRUE because same data type
+console.log(5=='5') //TRUE even though it is different data types
+console.log(6==5) //FALSE
+console.log('10'==89) //FALSE
+//=== (strict) (cant compare different data types)
+console.log(5==='5') //FALSE (because differnt data types)
+console.log(5===5) //TRUE (same data type and same value)
+console.log('6'==='6') //TRUE (same data type and same value)
+
+//----Logical---(returns true or false (boolean))
+//&& (AND) (both expressions are equal)
+//|| (OR) (atleast ONE of the expressions are equal)
+//! (NOT) (not equal)
+
+console.log(5>2 && 3>4) //FALSE
+console.log('hello'=='hello' && '5'===5) //FALSE 
+
+console.log(7>=3 || 4<10) //TRUE
+console.log('Hello' || 'Lesly') //TRUE
+const name2 = 'Lesly'; //not an empty string TRUE
+const name3 = undefined //FALSE
+console.log(!5>2) //negates the expression TRUE 
+
+
