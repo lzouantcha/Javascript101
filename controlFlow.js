@@ -104,3 +104,56 @@ if(age >= 0 && age <=12){ //goes through each condition
 }else if(age >= 20 || age <= 64){
     console.log('You are an adult')
 }
+//----Switch Statements------
+//alternative to if else statments
+//check different conditions and excute a block of code if the conditon is TRUE
+
+
+//--SYNTAX (how to write the code itself)
+// switch(expression){
+//     case value1: //each case is the condition and below if the code block you want to execute
+//         console.log('Case 1 is true') //what action you want
+
+//         break //key word in coding...LEAVE the switch block if the case is true...does not check the rest of the cases //OPTIONAL
+//     case value2:
+//         console.log('Case 2 is true')
+
+//         break
+//     case value3:
+//         console.log('Case 3 is true')
+
+//         break
+//     default: //if ALL the conditions are false, execute the block below
+//         console.log('Executing default code block')
+
+// }
+//expression == a combination of values, variables, and operators, which computes to a value
+let fruit = "apple";
+ 
+switch(fruit){ //expression is what you are trying to compare...compared against each case
+    case "banana":
+        console.log("The fruit is a banana");
+        break;
+    case "apple":
+        console.log('The fruit is an apple');
+        break;
+    case "mange":
+        console.log('The fruit is a mango')
+        break;
+    default:
+        console.log('I dont know what the fruit is') //executed if the fruit is NOT a banana, apple, or mango
+}
+
+let age1 = 18;
+
+switch(age1){
+    case 23: //is age1 equal to the value of 23
+        console.log('He is not 23, he is 18')
+        break;
+    case 50: //is age1 equal to the value of 50
+        console.log('No he is not old, he is 18')
+    default:
+        console.log('I have no clue this mans age, maybe it is 88')
+}
+
+prompt('What is your name');
